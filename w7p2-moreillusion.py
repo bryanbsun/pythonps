@@ -5,7 +5,7 @@
 
 from turtle import *
 
-speed(10)
+speed(5)
 
 def drawRectangle(x, y, width, height, colour):
     penup()
@@ -41,7 +41,7 @@ def drawCircle(x, y, r, c):
     hideturtle()
 
 # Pay attention to all the coordinates are calcuated
-
+"""
 drawRectangle(-250, 100, 280, 200, "black")
 
 for y in range(-100, 101, 40):
@@ -63,7 +63,7 @@ for x in range(-250, 31, 40):
 for x in range(-210, -9, 40):
     for y in range(-60, 61, 40):
         drawCircle(x, y, 3, "white")
-
+"""
 x, y = 180, 100
 
 penup()
