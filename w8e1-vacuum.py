@@ -15,7 +15,7 @@ sys.setrecursionlimit(1000000000)
 K = 0
 
 # instrs contains the sequence of instructions.
-instrs = ""
+instrs = ""å
 
 answer = 0
 

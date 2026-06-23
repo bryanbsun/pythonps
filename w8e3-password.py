@@ -1,3 +1,8 @@
+# 
+# Python Problem Solver
+# Week 8 Example 3: How Security is Your Password
+#
+
 N = 52
 L = 10
 
