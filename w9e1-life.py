@@ -3,15 +3,14 @@
 # Week 9 Example 1: Conway's Game of Life
 #
 
-#Conway's Game of Life - www.101computing.net/conways-game-of-life
 import turtle
 import time
 from random import randint
 
 gridSize = 15
 myPen = turtle.Turtle()
-#myPen.tracer(0)
-myPen.speed(100)
+turtle.tracer(0)
+myPen.speed(0)
 myPen.color("#000000")
 topLeft_x=-180
 topLeft_y=180
