@@ -15,7 +15,7 @@ sys.setrecursionlimit(1000000000)
 K = 0
 
 # instrs contains the sequence of instructions.
-instrs = ""å
+instrs = ""
 
 answer = 0
 
@@ -34,6 +34,8 @@ for i in instrs:
         y += 1
     elif i == "E":
         x += 1
+        if x > 4:
+            x = -4
     elif i == "S":
         y -= 1
     else:
