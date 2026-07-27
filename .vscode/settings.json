@@ -1,4 +1,4 @@
 {
-    "python.defaultInterpreterPath": "python3",
-    "editor.fontSize": 13
+    "python.defaultInterpreterPath": "python",
+    "editor.fontSize": 18
 }

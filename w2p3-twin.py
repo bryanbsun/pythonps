@@ -14,13 +14,12 @@ def isPrime(n):
    return True
 
 # record the last prime number found
-lastlastprime = 0
 lastprime = 0
 # loop all number from 2 to 1000
 for n in range (2, 1000001):
     if isPrime(n):
-        if lastprime and lastlastprime and lastprime == n - 2 and lastlastprime == n - 4:
-            print(f"{lastlastprime}, {lastprime}, {n}")
+        if lastprime and lastprime == n - 2:
+            print(f"{lastprime}, {n}")
         lastlastprime = lastprime
         lastprime = n
 
