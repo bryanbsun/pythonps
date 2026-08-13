@@ -1,4 +1,7 @@
-#Conway's Game of Life 
+# 
+# Python Problem Solver
+# Week 11 Example 2: Conway's Game of Life
+#
 import turtle
 import time
 from random import randint
@@ -12,18 +15,18 @@ topLeft_x=-180
 topLeft_y=180
 
 def glider():
-  grid = []
-  grid.append([0,1,0,0,0,0,0,0,0,0])
-  grid.append([0,0,1,0,0,0,0,0,0,0])
-  grid.append([1,1,1,0,0,0,0,0,0,0])
-  grid.append([0,0,0,0,0,0,0,0,0,0])
-  grid.append([0,0,0,0,0,0,0,0,0,0])
-  grid.append([0,0,0,0,0,0,0,0,0,0])
-  grid.append([0,0,0,0,0,0,0,0,0,0])
-  grid.append([0,0,0,0,0,0,0,0,0,0])
-  grid.append([0,0,0,0,0,0,0,0,0,0])
-  grid.append([0,0,0,0,0,0,0,0,0,0])
-  return grid
+    grid = []
+    grid.append([0,1,0,0,0,0,0,0,0,0])
+    grid.append([0,0,1,0,0,0,0,0,0,0])
+    grid.append([1,1,1,0,0,0,0,0,0,0])
+    grid.append([0,0,0,0,0,0,0,0,0,0])
+    grid.append([0,0,0,0,0,0,0,0,0,0])
+    grid.append([0,0,0,0,0,0,0,0,0,0])
+    grid.append([0,0,0,0,0,0,0,0,0,0])
+    grid.append([0,0,0,0,0,0,0,0,0,0])
+    grid.append([0,0,0,0,0,0,0,0,0,0])
+    grid.append([0,0,0,0,0,0,0,0,0,0])
+    return grid
 
 # This function draws a box by drawing each side of the square and using the fill function
 def box(intDim):
