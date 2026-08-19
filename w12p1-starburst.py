@@ -19,4 +19,5 @@ def burst(*lengths, **style):
 
     turtle.done()
 
-burst(60, 100, 60, 140, 60, 100, colour="orange", pensize=3)
+#burst(60, 100, 60, 140, 60, 100, colour="orange", pensize=3)
+burst(60, 100, 60, 140, 60, 100, 75, 20, 150, 19, pensize=3)
